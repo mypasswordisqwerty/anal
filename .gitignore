@@ -3,6 +3,12 @@
 !.project
 !.mxproject
 !.cproject
+*.launch
 
 Debug
+Release
+
+/DSView/**/**
+!DSView/**/
+!/DSView/libsigrok4DSL/hardware/bluepill/**
 
